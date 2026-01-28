@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Douglas Digital | Sites que Vendem</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #020617;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      padding: 90px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #020617, #0f172a);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+    header span {
+      color: #22c55e;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #cbd5f5;
+      max-width: 800px;
+      margin: auto;
+    }
+    .cta {
+      margin-top: 35px;
+    }
+    .cta a {
+      background: #22c55e;
+      color: #020617;
+      padding: 16px 36px;
+      border-radius: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.15rem;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1150px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2.4rem;
+      margin-bottom: 30px;
+      color: #38bdf8;
+      text-align: center;
+    }
+    .sobre p {
+      max-width: 900px;
+      font-size: 1.1rem;
+      color: #e5e7eb;
+      margin: auto;
+      text-align: center;
+    }
+    .beneficios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      margin-top: 45px;
+    }
+    .box {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+    }
+    .box h3 {
+      margin-bottom: 12px;
+      color: #22c55e;
+      font-size: 1.25rem;
+    }
+    .servicos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 30px;
+      border-radius: 16px;
+      position: relative;
+    }
+    .tag {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: #22c55e;
+      color: #020617;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+    .card h3 {
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+    }
+    .card p {
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+    .preco {
+      margin-top: 18px;
+      font-weight: bold;
+      color: #22c55e;
+      font-size: 1.15rem;
+    }
+    .contato {
+      text-align: center;
+      background: linear-gradient(135deg, #020617, #0f172a);
+      border-top: 1px solid #1e293b;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+  @keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34,197,94,0.6); }
+  70% { transform: scale(1.08); box-shadow: 0 0 0 15px rgba(34,197,94,0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+}
+</style>
+</head>
+<body>  <!-- BOTÕES FLUTUANTES -->  <a href="https://wa.me/5521987642891" target="_blank" style="position:fixed; bottom:20px; right:20px; width:60px; height:60px; background:#25D366; border-radius:50%; display:flex; align-items:center; justify-content:center; z-index:999; animation:pulse 1.8s infinite;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="#ffffff">
+    <path d="M16 0C7.164 0 0 7.164 0 16c0 2.828.738 5.484 2.02 7.797L0 32l8.445-2.02A15.93 15.93 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.09a13.02 13.02 0 01-6.633-1.82l-.473-.281-5.004 1.196 1.211-4.88-.308-.5A13.03 13.03 0 012.91 16C2.91 8.117 8.117 2.91 16 2.91S29.09 8.117 29.09 16 23.883 29.09 16 29.09zm7.52-9.83c-.41-.203-2.43-1.2-2.805-1.336-.375-.137-.648-.203-.922.203-.273.41-1.06 1.336-1.297 1.61-.238.273-.477.308-.887.102-.41-.203-1.734-.64-3.3-2.043-1.22-1.09-2.043-2.434-2.28-2.844-.238-.41-.025-.633.18-.836.184-.182.41-.477.613-.715.203-.238.273-.41.41-.684.137-.273.07-.512-.035-.715-.102-.203-.922-2.223-1.262-3.047-.332-.8-.672-.688-.922-.7l-.785-.015c-.273 0-.715.102-1.09.512-.375.41-1.43 1.398-1.43 3.41s1.465 3.957 1.668 4.23c.203.273 2.88 4.398 6.98 6.164.977.422 1.742.676 2.336.867.98.312 1.875.27 2.582.164.785-.117 2.43-.992 2.773-1.953.34-.96.34-1.785.238-1.953-.102-.168-.375-.273-.785-.477z"/>
+  </svg>
+</a>  <a href="https://www.instagram.com/dougl_asdigital" target="_blank" style="position:fixed; bottom:90px; right:20px; width:60px; height:60px; background:#E1306C; border-radius:50%; display:flex; align-items:center; justify-content:center; z-index:999; animation:pulse 2.2s infinite;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="28" height="28" fill="#ffffff">
+    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.2 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.5 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.9-26.9 26.9-14.9 0-26.9-12-26.9-26.9s12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.7-9.9-67.3-36.2-93.6C384 43.5 352.4 35.3 316.7 33.6 280.7 31.7 167.3 31.7 131.3 33.6 95.6 35.3 64 43.5 37.7 69.9 11.4 96.2 3.2 127.8 1.5 163.5-.4 199.5-.4 312.9 1.5 348.9c1.7 35.7 9.9 67.3 36.2 93.6 26.3 26.3 57.9 34.5 93.6 36.2 36 1.9 149.4 1.9 185.4 0 35.7-1.7 67.3-9.9 93.6-36.2 26.3-26.3 34.5-57.9 36.2-93.6 1.9-36 1.9-149.4 0-185.4z"/>
+  </svg>
+</a>  <header>
+    <h1>Douglas <span>Digital</span></h1>
+    <p>Criação de sites profissionais focados em <strong>vendas, clientes e credibilidade</strong>. Se você precisa vender mais na internet, eu faço o site certo pra isso.</p>
+    <div class="cta">
+      <a href="https://wa.me/5521987642891" target="_blank">Quero vender mais</a>
+    </div>
+  </header>  <section class="sobre">
+    <h2>O que eu faço por você</h2>
+    <p>
+      Eu ajudo empresas, autônomos e profissionais a terem presença online profissional.
+      Sites rápidos, bonitos e estratégicos, pensados para transformar visitantes em clientes reais.
+    </p><div class="beneficios">
+  <div class="box">
+    <h3>⚡ Entrega rápida</h3>
+    <p>Seu site pronto em poucos dias, sem burocracia.</p>
+  </div>
+  <div class="box">
+    <h3>📈 Foco em conversão</h3>
+    <p>Design e texto pensados para gerar contato e vendas.</p>
+  </div>
+  <div class="box">
+    <h3>🤝 Atendimento direto</h3>
+    <p>Você fala direto comigo, sem intermediários.</p>
+  </div>
+</div>
+
+  </section>  <section>
+    <h2>Serviços mais pedidos</h2>
+    <div class="servicos">
+      <div class="card">
+        <div class="tag">Mais vendido</div>
+        <h3>Site Profissional</h3>
+        <p>Ideal para empresas que querem passar confiança e atrair clientes todos os dias.</p>
+        <div class="preco">A partir de R$ 300</div>
+      </div>
+      <div class="card">
+        <h3>Landing Page de Vendas</h3>
+        <p>Página direta, rápida e persuasiva para vender produtos ou serviços.</p>
+        <div class="preco">A partir de R$ 250</div>
+      </div>
+      <div class="card">
+        <h3>Site para Autônomos</h3>
+        <p>Perfeito para quem trabalha por conta própria e quer mais clientes.</p>
+        <div class="preco">A partir de R$ 200</div>
+      </div>
+    </div>
+  </section>  <section class="contato">
+    <h2>Vamos começar hoje?</h2>
+    <p>Chama no WhatsApp agora e já começamos seu projeto.</p>
+    <div class="cta">
+      <a href="https://wa.me/5521987642891" target="_blank">Falar com Douglas Digital</a>
+    </div>
+  </section>  <footer>
+    <p>© 2026 Douglas Digital — Sites profissionais que vendem</p>
+    <p>Instagram: <a href="https://www.instagram.com/dougl_asdigital" target="_blank" style="color:#38bdf8; text-decoration:none;"><span style="color:#000000; font-weight:900;">@dougl_asdigital</span></a></p>
+  </footer></body>
+</html>
